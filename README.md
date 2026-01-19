@@ -14,7 +14,7 @@ Unlike generic NLP libraries, Norstop handles Norwegian-specific nuances like:
 You can install this library directly from GitHub using `pip`. No need to download files manually.
 
 ```bash
-pip install git+[https://github.com/vidito/norstop.git](https://github.com/vidito/norstop.git)
+pip install git+https://github.com/vidito/norstop.git
 ```
 
 ## 📖 Usage
