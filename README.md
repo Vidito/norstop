@@ -78,8 +78,6 @@ Norstop is built for speed:
 2. **Frozenset Lookups:** Checking if a word is a stopword happens instantly.
 3. **Memory Efficient:** Stopwords are loaded as bytecode, not parsed from text files at runtime.
 
-Here’s a clean, beginner‑friendly version that directly references **your actual repository** at `https://github.com/Vidito/norstop.git` and guides contributors step by step.
-
 ---
 
 ## 🤝 Contributing
