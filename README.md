@@ -6,6 +6,7 @@
 ![Repo Size](https://img.shields.io/github/repo-size/vidito/norstop)
 ![Issues](https://img.shields.io/github/issues/vidito/norstop)
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
+
 **Norstop** is a lightweight, zero-dependency Python library designed to remove Norwegian stopwords from text with high speed and accuracy.
 
 Unlike generic NLP libraries, Norstop handles Norwegian-specific nuances like:
