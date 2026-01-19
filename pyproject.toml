@@ -5,12 +5,23 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "norstop"
 version = "0.1.0"
-description = "Fast Norwegian stopword remover"
+description = "Fast and optimized Norwegian stopword remover"
 readme = "README.md"
 requires-python = ">=3.8"
 authors = [{name = "Vahid Niamadpour", email = "contact@pythonology.eu"}]
 license = {text = "MIT"}
+keywords = ["norwegian", "stopwords", "nlp", "text-processing", "norsk"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Natural Language :: Norwegian",
+    "Topic :: Text Processing :: Linguistic",
+]
 
-# This automatically finds the code in 'src'
+[project.urls]
+"Homepage" = "https://github.com/vidito/norstop"
+"Bug Tracker" = "https://github.com/vidito/norstop/issues"
+
 [tool.setuptools.packages.find]
 where = ["src"]
