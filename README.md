@@ -11,13 +11,36 @@ Unlike generic NLP libraries, Norstop handles Norwegian-specific nuances like:
 
 ## 🚀 Installation
 
-You can install this library directly from GitHub using `pip`. No need to download files manually.
+First create a Virtual Environment in a folder of your choice.
+
+```bash
+python -m venv venv
+```
+
+Then Activate it:
+
+```bash
+# Windows
+venv\Scripts\activate
+# MacOS
+source venv/bin/activate
+```
+
+Then you can install this library directly from GitHub using `pip`. No need to download files manually.
 
 ```bash
 pip install git+https://github.com/vidito/norstop.git
 ```
 
+You can also reinstall it using:
+
+```bash
+pip install --force-reinstall git+https://github.com/vidito/norstop.git
+```
+
 ## 📖 Usage
+
+After installing the library you can create a python file like main.py with the following:
 
 ```python
 from norstop import remove_stopwords
@@ -34,6 +57,12 @@ clean_quote = remove_stopwords(quote)
 print(clean_quote)
 # Output: "sa: viktig»."
 
+```
+
+and run it in the terminal:
+
+```bash
+python main.py
 ```
 
 ## ⚡ Performance
