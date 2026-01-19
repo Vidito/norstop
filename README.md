@@ -73,20 +73,66 @@ Norstop is built for speed:
 2. **Frozenset Lookups:** Checking if a word is a stopword happens instantly.
 3. **Memory Efficient:** Stopwords are loaded as bytecode, not parsed from text files at runtime.
 
+Here’s a clean, beginner‑friendly version that directly references **your actual repository** at `https://github.com/Vidito/norstop.git` and guides contributors step by step.
+
+---
+
 ## 🤝 Contributing
 
-We welcome contributions! The list of stopwords is maintained in a Python file for performance.
+Thank you for helping improve **norstop**!  
+Follow these simple steps to add new Norwegian stopwords.
 
-### How to add new stopwords:
+### 1. Fork the repository
 
-1. Fork this repository.
-2. Open the file `src/norstop/const.py`.
-3. Add the new word to the `NORWEGIAN_STOPWORDS` set.
+Go to the project page:  
+**https://github.com/Vidito/norstop.git**  
+Click **Fork** to create your own copy.
 
-- **Please keep the list alphabetical.**
-- Add all common inflections (e.g., if adding a verb, add past/present tense).
+### 2. Clone your fork
 
-4. Submit a Pull Request.
+Download your fork to your computer:
+
+```bash
+git clone <your-fork-url>
+cd norstop
+```
+
+### 3. Open the stopwords file
+
+Navigate to:
+
+```
+src/norstop/const.py
+```
+
+Inside, you’ll find the `NORWEGIAN_STOPWORDS` set.
+
+### 4. Add your stopword
+
+- Add your new word to the set.
+- Keep the list **alphabetical**.
+- Add **common inflections** (for example, for verbs: present, past, participle).
+
+### 5. Save and test
+
+If the project has tests or examples, run them to ensure everything still works.
+
+### 6. Commit your changes
+
+```bash
+git add src/norstop/const.py
+git commit -m "Added (a number) new Norwegian stopwords"
+```
+
+### 7. Push and open a Pull Request
+
+```bash
+git push origin main
+```
+
+Then visit your fork on GitHub and click **New Pull Request**.
+
+---
 
 ### Development & Testing
 
